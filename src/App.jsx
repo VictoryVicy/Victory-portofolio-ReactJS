@@ -46,7 +46,7 @@ export default function App() {
         </section>
       {/* Project Section */}
         <section>
-          <div className='container m-auto px-4'>
+          <div className='container m-auto px-4 py-12'>
             <h2 className='text-2xl font-semibold'>Projects</h2>
             <div className='flex gap-10 mt-11'>
               <div className='border border-gray-500 rounded-md p-5'>
@@ -88,10 +88,73 @@ export default function App() {
             </div>
           </div>
            {/* Technologies Section */}
-          <section>
+          <section className='py-10'>
           <div className='container m-auto px-4'>
             <h2 className='text-2xl font-semibold'>Techonologies</h2>
+            <div className='mt-14'>
+              <div>
+                <div className='flex justify-between items-center'>
+                  <h2 className='font-semibold'>HTML</h2>
+                  <p className='text-gray-500'>Advanced</p>
+                </div>
+                <span className='w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md' />
+              </div>
+              <div className='mt-8'>
+                <div className='flex justify-between items-center'>
+                  <h2 className='font-semibold'>CSS, Bootstrap, Tailwind</h2>
+                  <p className='text-gray-500'>Advanced</p>
+                </div>
+                <span className='w-[78%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md' />
+              </div>
+              <div className='mt-8'>
+                <div className='flex justify-between items-center'>
+                  <h2 className='font-semibold'>JavaScript Vanilla</h2>
+                  <p className='text-gray-500'>Advanced</p>
+                </div>
+                <span className='w-[80%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md' />
+              </div>
+              <div className='mt-8'>
+                <div className='flex justify-between items-center'>
+                  <h2 className='font-semibold'>Python</h2>
+                  <p className='text-gray-500'>Advanced</p>
+                </div>
+                <span className='w-[90%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md' />
+              </div>
+              <div className='mt-8'>
+                <div className='flex justify-between items-center'>
+                  <h2 className='font-semibold'>React Native</h2>
+                  <p className='text-gray-500'>Advanced</p>
+                </div>
+                <span className='w-[55%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md' />
+              </div>
+              <div className='mt-8'>
+                <div className='flex justify-between items-center'>
+                  <h2 className='font-semibold'>PHP & MySQL</h2>
+                  <p className='text-gray-500'>Advanced</p>
+                </div>
+                <span className='w-[75%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md' />
+              </div>
+              <div className='mt-8'>
+                <div className='flex justify-between items-center'>
+                  <h2 className='font-semibold'>Laravel Blade</h2>
+                  <p className='text-gray-500'>Advanced</p>
+                </div>
+                <span className='w-[80%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md' />
+              </div>
+            </div>
           </div>
+          </section>
+          {/* Additional skill section */}
+          <section>
+            <div className='container m-auto px-4 py-14'>
+              <h2 className='text-2xl font-semibold'>Additional skills and technologies</h2>
+              <div className='flex'>
+                <div>
+                  <p className='font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:mr-2'>Git</p>
+                </div>
+                <div></div>
+              </div>
+            </div>
           </section>
         </section>
       </main>
