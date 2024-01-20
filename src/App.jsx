@@ -42,9 +42,9 @@ export default function App() {
       </header>
       <main>
         <section>
-          <div className="container m-auto px-4 py-32 flex gap-6">
+          <div className="container m-auto px-4 pt-12 sm:py-32 flex flex-col sm:flex-row gap-6">
             <div>
-              <h1 className="font-bold text-4xl">Hello, I'm Victory,</h1>
+              <h1 className="font-bold text-4xl">Hello, I am Victory,</h1>
               <h1 className="font-bold text-4xl mt-1 gradient-text running-text">
                 fullstack developer.
               </h1>
@@ -56,18 +56,17 @@ export default function App() {
             <div className="relative">
               <img
                 src={Profile}
-                width={125}
                 alt="Victory"
-                className="rounded-full relative z-10"
+                className="rounded-full relative z-10 w-[220px] m-auto sm:w-[440px]"
               />
             </div>
           </div>
         </section>
         {/* Project Section */}
         <section>
-          <div className="container m-auto px-4 py-12">
+          <div className="container m-auto px-4 sm:py-12">
           <h2 className="text-2xl font-semibold">Projects</h2>
-            <div className="flex gap-10 mt-11">
+            <div className="flex flex-col sm:flex-row gap-10 mt-11">
               <div className="border border-gray-500 rounded-md p-5 flex-1">
                 <img
                   src={Project1}
@@ -222,7 +221,7 @@ export default function App() {
             <h2 className="text-2xl font-semibold">
               Additional skills and technologies
             </h2>
-            <div className="flex gap-20 mt-12 w-[80%]">
+            <div className="flex flex-col sm:flex-row gap-4 sm:gap-20 mt-12 w-[80%]">
               <div>
                 <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
                   Git
@@ -244,7 +243,7 @@ export default function App() {
                 </p>
               </div>
             </div>
-            <div className="flex gap-20 mt-6 w-[80%]">
+            <div className="flex flex-col sm:flex-row gap-4 sm:gap-20 mt-4 sm:mt-6 w-[80%]">
               <div>
                 <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
                   Engangement
@@ -290,7 +289,7 @@ export default function App() {
       <footer>
         <div className="container m-auto flex justify-between px-4 py-6">
           <div>
-            <p className="text-gray-300 tetx-sm">Copyright @ 2023</p>
+            <p className="text-gray-300 text-sm">Copyright @ 2023</p>
           </div>
           <div>
             <ul className="flex gap-6">
