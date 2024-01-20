@@ -4,6 +4,9 @@ import Project1 from "./assets/project1.jpg";
 import Project2 from "./assets/project2.jpg";
 import Project3 from "./assets/project3.jpg";
 import Project4 from "./assets/project4.jpg";
+import Facebook from "./assets/facebook.svg";
+import Linkedin from "./assets/linkedin.svg";
+import Instagram from "./assets/instagram.svg";
 
 export default function App() {
   return (
@@ -39,10 +42,10 @@ export default function App() {
       </header>
       <main>
         <section>
-          <div className="container m-auto px-4 py-10 flex gap-6">
+          <div className="container m-auto px-4 py-32 flex gap-6">
             <div>
               <h1 className="font-bold text-4xl">Hello, I'm Victory,</h1>
-              <h1 className="font-bold text-4xl mt-1 gradient-text">
+              <h1 className="font-bold text-4xl mt-1 gradient-text running-text">
                 fullstack developer.
               </h1>
               <p className="mt-4 text-gray-400">
@@ -63,9 +66,9 @@ export default function App() {
         {/* Project Section */}
         <section>
           <div className="container m-auto px-4 py-12">
-            <h2 className="text-2xl font-semibold">Projects</h2>
+          <h2 className="text-2xl font-semibold">Projects</h2>
             <div className="flex gap-10 mt-11">
-              <div className="border border-gray-500 rounded-md p-5">
+              <div className="border border-gray-500 rounded-md p-5 flex-1">
                 <img
                   src={Project1}
                   className="w-full h-auto"
@@ -78,16 +81,16 @@ export default function App() {
                 <p className="text-gray-400 text-sm mt-2">
                   Skill foto ini mah, ga pake bahasa pemrograman
                 </p>
-                <div className="flex justify-evenly mt-12">
-                  <button className="px-4 py-2 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
+                <div className="flex mt-12 gap-2">
+                  <button className="flex-1 text-sm py-2 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
                     Live preview
                   </button>
-                  <button className="px-4 py-2 border rounded-full hover:border-blue-500 hover:text-blue-500">
+                  <button className="flex-1 text-sm py-2 border rounded-full hover:border-blue-500 hover:text-blue-500">
                     Checkout github
                   </button>
                 </div>
               </div>
-              <div className="border border-gray-500 rounded-md p-5">
+              <div className="border border-gray-500 rounded-md p-5 flex-1">
                 <img
                   src={Project2}
                   className="w-full h-auto"
@@ -100,16 +103,16 @@ export default function App() {
                 <p className="text-gray-400 text-sm mt-2">
                   Skill foto ini mah, ga pake bahasa pemrograman
                 </p>
-                <div className="flex justify-evenly mt-12">
-                  <button className="px-4 py-2 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
+                <div className="flex mt-12 gap-2">
+                  <button className="flex-1 text-sm py-2 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
                     Live preview
                   </button>
-                  <button className="px-4 py-2 border rounded-full hover:border-blue-500 hover:text-blue-500">
+                  <button className="flex-1 text-sm py-2 border rounded-full hover:border-blue-500 hover:text-blue-500">
                     Checkout github
                   </button>
                 </div>
               </div>
-              <div className="border border-gray-500 rounded-md p-5">
+              <div className="border border-gray-500 rounded-md p-5 flex-1">
                 <img
                   src={Project3}
                   className="w-full h-auto"
@@ -122,16 +125,16 @@ export default function App() {
                 <p className="text-gray-400 text-sm mt-2">
                   Skill foto ini mah, ga pake bahasa pemrograman
                 </p>
-                <div className="flex justify-evenly mt-12">
-                  <button className="px-4 py-2 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
+                <div className="flex mt-12 gap-2">
+                  <button className="flex-1 text-sm py-2 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
                     Live preview
                   </button>
-                  <button className="px-4 py-2 border rounded-full hover:border-blue-500 hover:text-blue-500">
+                  <button className="flex-1 text-sm py-2 border rounded-full hover:border-blue-500 hover:text-blue-500">
                     Checkout github
                   </button>
                 </div>
               </div>
-              <div className="border border-gray-500 rounded-md p-5">
+              <div className="border border-gray-500 rounded-md p-5 flex-1">
                 <img
                   src={Project4}
                   className="w-full h-auto"
@@ -144,11 +147,11 @@ export default function App() {
                 <p className="text-gray-400 text-sm mt-2">
                   Skill foto ini mah, ga pake bahasa pemrograman
                 </p>
-                <div className="flex justify-evenly mt-12">
-                  <button className="px-4 py-2 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
+                <div className="flex mt-12 gap-2">
+                  <button className="flex-1 text-sm py-2 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
                     Live preview
                   </button>
-                  <button className="px-4 py-2 border rounded-full hover:border-blue-500 hover:text-blue-500">
+                  <button className="flex-1 text-sm py-2 border rounded-full hover:border-blue-500 hover:text-blue-500">
                     Checkout github
                   </button>
                 </div>
@@ -219,42 +222,42 @@ export default function App() {
             <h2 className="text-2xl font-semibold">
               Additional skills and technologies
             </h2>
-            <div className="flex justify-between mt-12 w-[80%]">
+            <div className="flex gap-20 mt-12 w-[80%]">
               <div>
-                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-5 before:absolute relative left-5">
+                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
                   Git
                 </p>
               </div>
               <div>
-                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-5 before:absolute relative left-5">
+                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
                   Wordpress
                 </p>
               </div>
               <div>
-                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-5 before:absolute relative left-5">
+                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
                   TeamWork
                 </p>
               </div>
               <div>
-                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-5 before:absolute relative left-5">
+                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
                   Quick Learning
                 </p>
               </div>
             </div>
-            <div className="flex justify-between mt-6 w-[80%]">
+            <div className="flex gap-20 mt-6 w-[80%]">
               <div>
-                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-5 before:absolute relative left-5">
-                  Git
+                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
+                  Engangement
                 </p>
               </div>
               <div>
-                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-5 before:absolute relative left-5">
-                  Wordpress
+                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
+                  B2 English
                 </p>
               </div>
               <div>
-                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-5 before:absolute relative left-5">
-                  TeamWork
+                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
+                  RWD
                 </p>
               </div>
             </div>
@@ -285,14 +288,20 @@ export default function App() {
         </section>
       </main>
       <footer>
-        <div className="container m-auto flex justify-between px-4">
+        <div className="container m-auto flex justify-between px-4 py-6">
           <div>
             <p className="text-gray-300 tetx-sm">Copyright @ 2023</p>
           </div>
           <div>
-            <ul className="flex gap-4">
+            <ul className="flex gap-6">
               <li>
-
+                <a><img src={Facebook} className="w-6" /></a>
+              </li>
+              <li>
+                <a><img src={Linkedin} className="w-6" /></a>
+              </li>
+              <li>
+                <a><img src={Instagram} className="w-6" /></a>
               </li>
             </ul>
           </div>
