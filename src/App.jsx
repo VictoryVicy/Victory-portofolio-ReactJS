@@ -287,7 +287,7 @@ export default function App() {
       <footer>
         <div className="container m-auto flex justify-between px-4">
           <div>
-            <p className="text-gray-300 tetx-sm">COpyright @ 2023</p>
+            <p className="text-gray-300 tetx-sm">Copyright @ 2023</p>
           </div>
           <div>
             <ul className="flex gap-4">
