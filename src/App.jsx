@@ -21,17 +21,17 @@ export default function App() {
             <div>
               <ul className="flex gap-4">
                 <li>
-                  <a className="text-gray-400 hover:text-white cursor-pointer">
+                  <a className="text-gray-400 hover:text-white cursor-pointer" href="#projects">
                     Projects
                   </a>
                 </li>
                 <li>
-                  <a className="text-gray-400 hover:text-white cursor-pointer">
+                  <a className="text-gray-400 hover:text-white cursor-pointer" href="#technologies">
                     Technologies
                   </a>
                 </li>
                 <li>
-                  <a className="text-gray-400 hover:text-white cursor-pointer">
+                  <a className="text-gray-400 hover:text-white cursor-pointer" href="#about">
                     About me
                   </a>
                 </li>
@@ -63,7 +63,7 @@ export default function App() {
           </div>
         </section>
         {/* Project Section */}
-        <section>
+        <section id="projects">
           <div className="container m-auto px-4 sm:py-12">
           <h2 className="text-2xl font-semibold">Projects</h2>
             <div className="flex flex-col sm:flex-row gap-10 mt-11">
@@ -159,7 +159,7 @@ export default function App() {
           </div>
         </section>
         {/* Technologies Section */}
-        <section className="py-10">
+        <section className="py-10" id="technologies">
           <div className="container m-auto px-4">
             <h2 className="text-2xl font-semibold">Techonologies</h2>
             <div className="mt-14">
@@ -262,7 +262,7 @@ export default function App() {
             </div>
           </div>
         </section>
-        <section className="py-8">
+        <section className="py-8" id="about">
           <div className="container m-auto px-4">
             <h2 className="text-2xl font-semibold">About me</h2>
             <div className="mt-12 pl-12 relative before:absolute before:top-0 before:left-20 before:bottom-2 before:w-1 before:bg-white">
