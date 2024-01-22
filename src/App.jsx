@@ -13,29 +13,40 @@ export default function App() {
     <>
       {/* Header Section */}
       <header>
-        <div className="container m-auto px-4 py-6">
-          <div className="flex justify-between">
-            <div>
-              <h1 className="font-bold text-xl">Victory Portofolio</h1>
-            </div>
-            <div>
-              <ul className="flex gap-4">
-                <li>
-                  <a className="text-gray-400 hover:text-white cursor-pointer" href="#projects">
-                    Projects
-                  </a>
-                </li>
-                <li>
-                  <a className="text-gray-400 hover:text-white cursor-pointer" href="#technologies">
-                    Technologies
-                  </a>
-                </li>
-                <li>
-                  <a className="text-gray-400 hover:text-white cursor-pointer" href="#about">
-                    About me
-                  </a>
-                </li>
-              </ul>
+        <div className="fixed top-0 w-full text-white bg-gray-700 z-10">
+          <div className="container m-auto px-4 py-6">
+            <div className="flex justify-between">
+              <div>
+                <h1 className="font-bold text-xl">Victory Portofolio</h1>
+              </div>
+              <div>
+                <ul className="flex gap-4">
+                  <li>
+                    <a
+                      className="hover:text-white cursor-pointer"
+                      href="#projects"
+                    >
+                      Projects
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className="hover:text-white cursor-pointer"
+                      href="#technologies"
+                    >
+                      Technologies
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className="hover:text-white cursor-pointer"
+                      href="#about"
+                    >
+                      About me
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -57,7 +68,7 @@ export default function App() {
               <img
                 src={Profile}
                 alt="Victory"
-                className="rounded-full relative z-10 w-[220px] m-auto sm:w-[440px]"
+                className="rounded-full relative w-[220px] m-auto sm:w-[440px]"
               />
             </div>
           </div>
@@ -65,7 +76,7 @@ export default function App() {
         {/* Project Section */}
         <section id="projects">
           <div className="container m-auto px-4 sm:py-12">
-          <h2 className="text-2xl font-semibold">Projects</h2>
+            <h2 className="text-2xl font-semibold">Projects</h2>
             <div className="flex flex-col sm:flex-row gap-10 mt-11">
               <div className="border border-gray-500 rounded-md p-5 flex-1">
                 <img
@@ -294,13 +305,19 @@ export default function App() {
           <div>
             <ul className="flex gap-6">
               <li>
-                <a><img src={Facebook} className="w-6" /></a>
+                <a>
+                  <img src={Facebook} className="w-6" />
+                </a>
               </li>
               <li>
-                <a><img src={Linkedin} className="w-6" /></a>
+                <a>
+                  <img src={Linkedin} className="w-6" />
+                </a>
               </li>
               <li>
-                <a><img src={Instagram} className="w-6" /></a>
+                <a>
+                  <img src={Instagram} className="w-6" />
+                </a>
               </li>
             </ul>
           </div>
