@@ -13,14 +13,14 @@ export default function App() {
     <>
       {/* Header Section */}
       <header>
-        <div className="fixed top-0 w-full text-white bg-gray-700 z-10">
+        <div className="fixed top-0 w-full text-white z-10">
           <div className="container m-auto px-4 py-6">
             <div className="flex justify-between">
               <div>
-                <h1 className="font-bold text-xl">Victory Portofolio</h1>
+                <h1 className="font-bold text-xl">Victory.</h1>
               </div>
               <div>
-                <ul className="flex gap-4">
+                <ul className="flex gap-20">
                   <li>
                     <a
                       className="hover:text-white cursor-pointer"
@@ -45,6 +45,13 @@ export default function App() {
                       About me
                     </a>
                   </li>
+                  <li>
+                    <a
+                      className="hover:text-white cursor-pointer"
+                    >
+                     My Github
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -53,7 +60,7 @@ export default function App() {
       </header>
       <main>
         <section>
-          <div className="container m-auto px-4 pt-12 sm:py-32 flex flex-col sm:flex-row gap-6">
+          <div className="container m-auto px-4 pt-12 sm:py-32 flex flex-col sm:flex-row gap-16">
             <div>
               <h1 className="font-bold text-4xl">Hello, I am Victory,</h1>
               <h1 className="font-bold text-4xl mt-1 gradient-text running-text">
@@ -68,7 +75,7 @@ export default function App() {
               <img
                 src={Profile}
                 alt="Victory"
-                className="rounded-full relative w-[220px] m-auto sm:w-[440px]"
+                className="rounded-full relative w-[200px] m-auto sm:w-[400px]"
               />
             </div>
           </div>
