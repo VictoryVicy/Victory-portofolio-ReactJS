@@ -47,7 +47,7 @@ export default function App() {
                   </li>
                   <li>
                     <a
-                      className="hover:text-white cursor-pointer"
+                      className="hover:text-white cursor-pointer" href="https://github.com/VictoryVicy" target="blank"
                     >
                      My Github
                     </a>
@@ -62,7 +62,7 @@ export default function App() {
         <section>
           <div className="container m-auto px-4 pt-12 sm:py-32 flex flex-col sm:flex-row gap-16">
             <div>
-              <h1 className="font-bold text-4xl">Hello, I am Victory,</h1>
+              <h1 className="font-bold text-4xl text-white">Hello, I am Victory,</h1>
               <h1 className="font-bold text-4xl mt-1 gradient-text running-text">
                 fullstack developer.
               </h1>
@@ -233,53 +233,6 @@ export default function App() {
             </div>
           </div>
         </section>
-        {/* Additional skill section */}
-        <section>
-          <div className="container m-auto px-4 py-14">
-            <h2 className="text-2xl font-semibold">
-              Additional skills and technologies
-            </h2>
-            <div className="flex flex-col sm:flex-row gap-4 sm:gap-20 mt-12 w-[80%]">
-              <div>
-                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
-                  Git
-                </p>
-              </div>
-              <div>
-                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
-                  Wordpress
-                </p>
-              </div>
-              <div>
-                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
-                  TeamWork
-                </p>
-              </div>
-              <div>
-                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
-                  Quick Learning
-                </p>
-              </div>
-            </div>
-            <div className="flex flex-col sm:flex-row gap-4 sm:gap-20 mt-4 sm:mt-6 w-[80%]">
-              <div>
-                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
-                  Engangement
-                </p>
-              </div>
-              <div>
-                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
-                  B2 English
-                </p>
-              </div>
-              <div>
-                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
-                  RWD
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
         <section className="py-8" id="about">
           <div className="container m-auto px-4">
             <h2 className="text-2xl font-semibold">About me</h2>
@@ -307,22 +260,22 @@ export default function App() {
       <footer>
         <div className="container m-auto flex justify-between px-4 py-6">
           <div>
-            <p className="text-gray-300 text-sm">Copyright @ 2023</p>
+            <p className="text-gray-300 text-sm">Copyright &copy; 2023</p>
           </div>
           <div>
             <ul className="flex gap-6">
               <li>
-                <a>
+                <a href="https://www.facebook.com/VictoryKuriakos">
                   <img src={Facebook} className="w-6" />
                 </a>
               </li>
               <li>
-                <a>
+                <a href="https://www.linkedin.com/in/victory-kuriakos-a-47280828a">
                   <img src={Linkedin} className="w-6" />
                 </a>
               </li>
               <li>
-                <a>
+                <a href="https://www.instagram.com/for_vicy">
                   <img src={Instagram} className="w-6" />
                 </a>
               </li>
