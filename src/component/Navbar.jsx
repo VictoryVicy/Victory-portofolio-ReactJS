@@ -1,7 +1,7 @@
 export default function Navbar() {
   return (
     <header>
-      <div className="fixed top-0 w-full text-white z-10">
+      <div className="bg-transparent backdrop-filter backdrop-blur-sm fixed top-0 w-full text-white z-10">
         <div className="container m-auto px-4 py-6">
           <div className="flex justify-between">
             <div>
@@ -12,7 +12,7 @@ export default function Navbar() {
                 <li>
                   <a className="hover:text-white cursor-pointer" href="#home">
                     Home
-                  </a>
+                  </a>  
                 </li>
                 <li>
                   <a
