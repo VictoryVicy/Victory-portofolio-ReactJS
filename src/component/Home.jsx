@@ -2,7 +2,7 @@ import Profile from "../assets/profile.jpg";
 
 export default function Home() {
   return (
-    <section id="home">
+    <section id="home" className="sm:mt-8 mt-12">
       <div className="container m-auto px-4 pt-12 sm:py-32 flex flex-col sm:flex-row gap-16">
         <div>
           <h1 className="font-bold text-4xl text-white">
