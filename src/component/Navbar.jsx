@@ -39,31 +39,31 @@ export default function Navbar() {
             <div className="hidden lg:flex">
               <ul className="flex gap-8">
                 <li>
-                  <a className="hover:text-white cursor-pointer" href="#home">
+                  <a className="cursor-pointer" href="#home">
                     Home
                   </a>
                 </li>
                 <li>
                   <a
-                    className="hover:text-white cursor-pointer"
+                    className="cursor-pointer"
                     href="#projects"
                   >
                     Projects
                   </a>
                 </li>
                 <li>
-                  <a className="hover:text-white cursor-pointer" href="#skill">
+                  <a className="cursor-pointer" href="#skill">
                     Skill
                   </a>
                 </li>
                 <li>
-                  <a className="hover:text-white cursor-pointer" href="#about">
+                  <a className="cursor-pointer" href="#about">
                     About me
                   </a>
                 </li>
                 <li>
                   <a
-                    className="hover:text-white cursor-pointer"
+                    className="cursor-pointer"
                     href="https://github.com/VictoryVicy"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -79,7 +79,7 @@ export default function Navbar() {
               <ul className="flex flex-col gap-4">
                 <li>
                   <a
-                    className="hover:text-white cursor-pointer"
+                    className="cursor-pointer"
                     href="#home"
                     onClick={toggleNavbar}
                   >
