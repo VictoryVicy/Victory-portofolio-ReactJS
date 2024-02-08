@@ -39,31 +39,31 @@ export default function Navbar() {
             <div className="hidden lg:flex">
               <ul className="flex gap-8">
                 <li>
-                  <a className="cursor-pointer" href="#home">
+                  <a className="cursor-pointer hover:text-cyan-500 hover:border-b-2 hover:border-cyan-500" href="#home">
                     Home
                   </a>
                 </li>
                 <li>
                   <a
-                    className="cursor-pointer"
+                    className="cursor-pointer hover:text-cyan-500 hover:border-b-2 hover:border-cyan-500"
                     href="#projects"
                   >
                     Projects
                   </a>
                 </li>
                 <li>
-                  <a className="cursor-pointer" href="#skill">
+                  <a className="cursor-pointer hover:text-cyan-500 hover:border-b-2 hover:border-cyan-500" href="#skill">
                     Skill
                   </a>
                 </li>
                 <li>
-                  <a className="cursor-pointer" href="#about">
+                  <a className="cursor-pointer hover:text-cyan-500 hover:border-b-2 hover:border-cyan-500" href="#about">
                     About me
                   </a>
                 </li>
                 <li>
                   <a
-                    className="cursor-pointer"
+                    className="cursor-pointer hover:text-cyan-500 hover:border-b-2 hover:border-cyan-500"
                     href="https://github.com/VictoryVicy"
                     target="_blank"
                     rel="noopener noreferrer"
