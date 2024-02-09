@@ -20,7 +20,7 @@ export default function Home() {
             natural language processing (NLP). I believe my skills in web
             development and deep understanding of machine learning will give me
             the opportunity to participate in future challenges in the world of
-            technology.
+            technology.a
           </p>
         </div>
         <div className="relative ml-20 md:col-span-6">
